@@ -1,0 +1,15 @@
+{
+  "name": "rajul-pickleball-website",
+  "version": "1.0.0",
+  "description": "Professional pickleball coaching website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "start": "npx live-server --port=3000"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+} 
