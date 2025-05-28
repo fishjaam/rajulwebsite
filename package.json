@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx live-server --port=3000",
     "start": "npx live-server --port=3000",
-    "build": "echo 'Static site, no build needed'"
+    "build": "mkdir -p dist && cp -r *.html *.css *.js images dist/"
   },
   "author": "",
   "license": "MIT",
