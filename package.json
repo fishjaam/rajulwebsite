@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "npx live-server --port=3000",
     "start": "npx live-server --port=3000",
-    "build": "mkdir -p dist && cp -r *.html *.css *.js images dist/ && cp .nojekyll dist/",
+    "build": "rm -rf dist && mkdir -p dist && cp -r *.html *.css *.js images dist/ && touch dist/.nojekyll",
+    "postbuild": "cp vercel.json dist/",
     "deploy": "npm run build && npx vercel --prod"
   },
   "author": "",
