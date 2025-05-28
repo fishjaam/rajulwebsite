@@ -2,15 +2,22 @@
   "name": "rajul-pickleball-website",
   "version": "1.0.0",
   "description": "Professional pickleball coaching website",
-  "main": "index.html",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.x"
+  },
   "scripts": {
     "dev": "npx live-server --port=3000",
-    "start": "npx live-server --port=3000",
-    "build": "echo 'No build needed for static site'"
+    "start": "node index.js",
+    "build": "echo 'Static site ready for deployment'"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
   }
 } 
