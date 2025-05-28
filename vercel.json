@@ -1,12 +1,5 @@
 {
   "version": 2,
-  "name": "rajulwebsite",
-  "builds": [
-    { "src": "dist/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/dist/$1" },
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/dist/index.html" }
-  ]
+  "framework": "static",
+  "outputDirectory": "dist"
 } 
