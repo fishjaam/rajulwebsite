@@ -20,11 +20,6 @@ yarn-error.log*
 logs
 *.log
 
-# Distribution/build directories
-dist/
-build/
-out/
-
 # Local environment files
 .env
 .env.local
